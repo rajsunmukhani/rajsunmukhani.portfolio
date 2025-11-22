@@ -63,7 +63,7 @@ const Skills = () => {
               <motion.div className='app__skills-cert-works'>
                 {
                   certification.works.map((work) => (
-                    <>
+                    <div key={work.name}>
                       <motion.div
                       whileInView={{opacity:[0, 1]}}
                       transition={{duration:0.5}}
@@ -83,7 +83,7 @@ const Skills = () => {
                         style={{ backgroundColor: "#fff", color: "#000" }}
                       />
 
-                    </>
+                    </div>
                   ))
                 }
               </motion.div>

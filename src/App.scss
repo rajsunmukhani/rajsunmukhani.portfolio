@@ -14,7 +14,7 @@
   .app__container {
     width: 100%;
     min-height: 100vh;
-  
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
   }
@@ -188,3 +188,25 @@
       padding: 2rem;
     }
   }
+
+.work-swiper-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+  .work-swiper-container {
+    width: 90%;
+    max-width: 800px;  /* Prevents pushing navigation dots */
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .work-swiper-container {
+    width: 90%;
+    max-width: 530px;  /* Prevents pushing navigation dots */
+    margin: 0 auto;
+  }
+}
