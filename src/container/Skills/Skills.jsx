@@ -30,7 +30,7 @@ const Skills = () => {
   return (
     <>
       <h2 className='head-text'>
-        Skills & certifications
+        Skills & <span> certifications </span>
       </h2>
       <div className='app__skills-container'>
         <motion.div className='app__skills-list'>
@@ -51,23 +51,23 @@ const Skills = () => {
           ))}
         </motion.div>
 
-        <motion.div className='app__skills-exp'>
-          {certifications?.map((experience) => (
+        <motion.div className='app__skills-cert'>
+          {certifications?.map((certification) => (
             <motion.div
-              className='app__skills-exp-item'
-              key={experience.year}
+              className='app__skills-cert-item'
+              key={certification.year}
             >
-              <div className='app__skills-exp-year'>
-                <p className='bold-text'>{experience.year}</p>
+              <div className='app__skills-cert-year'>
+                <p className='bold-text'>{certification.year}</p>
               </div>
-              <motion.div className='app__skills-exp-works'>
+              <motion.div className='app__skills-cert-works'>
                 {
-                  experience.works.map((work) => (
+                  certification.works.map((work) => (
                     <>
                       <motion.div
                       whileInView={{opacity:[0, 1]}}
                       transition={{duration:0.5}}
-                      className='app__skills-exp-work'
+                      className='app__skills-cert-work'
                       data-tooltip-id={work.name}
                       data-tooltip-content={work.desc}
                       key={work.name}

@@ -1,8 +1,11 @@
 import React from 'react'
 import './About.scss'
 import { AppWrap, MotionWrap } from '../../wrapper'
+import resumeFile from '../../assets/Raj Sunmukhani Resume (6).pdf';
 
 const About = () => {
+  const RESUME_FILE_URL = resumeFile; 
+
   return (
     <div className='app__about app__flex'>
       <div className='app__about-left'>
@@ -10,7 +13,7 @@ const About = () => {
       </div>
       <div className='app__about-right'>
         <h2 className='head-text'>
-            About Me
+            About <span>Me</span> 
         </h2>
         <p className='p-text about-text'>
           I began my journey with <span>Java</span>  and <span>OOPs</span> , and eventually found a deep passion for Full-Stack Web Development using the <span>MERN stack</span>. Over the years, I’ve built projects that strengthened my skills in Frontend Design, Backend Architecture, and writing clean, efficient, and secure code. <br /> <br />
@@ -18,7 +21,9 @@ const About = () => {
           I'm dedicated to continuous learning and improving myself with every project I build. <span>I love coding</span>, exploring new technologies, and creating meaningful digital experiences — and I’m excited to bring this energy into a <span>organisation</span> that’s willing to give me a chance to prove myself and grow with the team.
         </p>
         <div className='app__about-right-btn'>
-          <a href="#contact">contact</a>
+          <a href={RESUME_FILE_URL} download="RajSunmukhani-Resume.pdf">
+            Download Resume
+          </a>
         </div>
       </div>
     </div>

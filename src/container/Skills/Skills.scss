@@ -77,19 +77,19 @@
     }
 }
 
-.app__skills-exp{
+.app__skills-cert{
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
 
-    @media screen and (min-width : 900px) {
+    @media screen and (max-width : 900px) {
         margin-top: 2rem;
     }
 }
 
-.app__skills-exp-item{
+.app__skills-cert-item{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -98,10 +98,10 @@
     margin: 1rem 0;
 }
 
-.app__skills-exp-works{
+.app__skills-cert-works{
     flex: 1;
 
-    .app__skills-exp-work{
+    .app__skills-cert-work{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -121,7 +121,7 @@
     }
 }
 
-.app__skills-exp-year{
+.app__skills-cert-year{
     margin-right: 3rem;
 
     p{

@@ -23,7 +23,7 @@ const ProfileImage = () => {
       },
       {
         x: "-25vw",          
-        y: "95vh",          
+        y: "90vh",          
         scale: 0.85,         
         ease: "easeInOut",
         scrollTrigger: {
