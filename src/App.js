@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {About, Footer, Header, Skills, Testimonials, Works} from './container'
+import {About, Footer, Header, Skills, Works} from './container'
 import {Navbar, ProfileImage} from './components'
 
 import './App.scss'
@@ -18,5 +18,6 @@ const App = () => {
     </div>
   )
 }
+
 
 export default App
