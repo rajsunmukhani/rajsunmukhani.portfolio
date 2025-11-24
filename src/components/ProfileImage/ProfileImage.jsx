@@ -42,11 +42,12 @@ const ProfileImage = () => {
           ref={avatarRef}
           className="profile-avatar"
           src={images.profile}
-          alt="profile image"
+          alt="profile of Raj"
         />
 
     </>
   )
 }
+
 
 export default ProfileImage
