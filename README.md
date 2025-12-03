@@ -8,8 +8,6 @@ This portfolio highlights my projects, skills, experience, and passion for build
 
 *🔗 Live Website: https://rajsunmukhani-portfolio.netlify.app/*
 
-(Update this link if you redeploy)
-
 # 📌 Features
 
 ⚡ Fully responsive UI
@@ -24,14 +22,12 @@ This portfolio highlights my projects, skills, experience, and passion for build
 
 📄 Clean and maintainable folder structure
 
-🌑 Dark/Light mode (if added later)
-
 # 🛠️ Tech Stack
-Category	Technologies
-Frontend	React.js, JavaScript, HTML5, CSS3
-Styling	    SCSS, GSAP animations, Swiper
-Deployment	Netlify
-Tools	    VS Code, Git, GitHub
+Category   |  Technologies
+Frontend   |  React.js, JavaScript, HTML5, CSS3
+Styling	   |  SCSS, GSAP animations, Swiper
+Deployment |  Netlify
+Tools	     |  VS Code, Git, GitHub
 
 # 📁 Folder Structure
 
@@ -57,16 +53,13 @@ Clone the project:
 
 git clone https://github.com/rajsunmukhani/Raj-React-Portoflio.git
 
-
 Go into the project folder:
 
 cd Raj-React-Portoflio
 
-
 Install dependencies:
 
 npm install
-
 
 Start development server:
 
@@ -79,11 +72,11 @@ Feel free to reach out for collaborations or opportunities!
 
 📧 Email: rajsunmukhani123@gmail.com
 
-🔗 LinkedIn: https://www.linkedin.com/in/raj-sunmukhani-554b58210
+🔗 LinkedIn: https://www.linkedin.com/in/rajsunmukhani
 
 🐙 GitHub: https://github.com/rajsunmukhani
 
 ⭐ Show Your Support
 
-If you like this project, consider giving it a star ⭐ on GitHub.
-It motivates me to build more awesome projects!
+If you like this project, consider giving it a star ⭐.
+This motivates me to build more awesome projects!
