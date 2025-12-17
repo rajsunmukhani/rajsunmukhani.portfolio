@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 
-import {About, Footer, Header, Skills, Works} from './container'
+import {Header, About} from './container'
 import {Navbar, ProfileImage} from './components'
-
 import './App.scss'
+
+const Works = lazy(() => import('./container/Works/Works'));
+const Skills = lazy(() => import('./container/Skills/Skills'));
+const Footer = lazy(() => import('./container/Footer/Footer'));
+const Chatbot = lazy(() => import('./chatbot/Chatbot'));
+
 const App = () => {
   return (
     <div className='app'>
@@ -11,10 +16,16 @@ const App = () => {
       <Header/>
       <ProfileImage />
       <About/>
-      <Works/>
+      {/* <Works/>
       <Skills/>
-      {/* <Testimonials/> */}
-      <Footer/>
+      <Testimonials/>
+      <Footer/> */}
+      <Suspense fallback={<div className="loader">Loading...</div>}>
+        <Works />
+        <Skills />
+        <Footer />
+        <Chatbot />
+      </Suspense>
     </div>
   )
 }
