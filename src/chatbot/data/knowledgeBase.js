@@ -42,7 +42,7 @@ const knowledgeBase = {
     ]
   },
   projects: {
-    keywords: ["projects", "work", "built", "apps", "experience"],
+    keywords: ["projects", "built", "apps", "experience"],
     responses: [
       "You should definitely check out Filmfuse (movie insights) or STASH (a secure card holder). He even built a custom Internshala API!",
       "His top hits are Filmfuse and Internshala API. He's also built several webistes clone made using HTML, CSS and javascript libraries for animations systems.",
